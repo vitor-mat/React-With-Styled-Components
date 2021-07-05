@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-import { corBackground } from './cores';
+import { corBackground, corTexto } from './cores';
 
 export const GlobalStyle = createGlobalStyle`
     *{
@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Roboto', sans-serif;
         font-weight: 200;
+        color: ${corTexto}
     }
 
     body{

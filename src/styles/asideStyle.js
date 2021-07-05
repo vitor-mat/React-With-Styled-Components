@@ -3,8 +3,7 @@ import styled from 'styled-components';
 import { corAside } from "./cores"
 
 export const Aside = styled.aside`
-    width: 40%;
-    height: 100vh;
+
     background-color: ${corAside};
 
     position: relative;
@@ -25,20 +24,24 @@ export const Aside = styled.aside`
         transform: rotate(134.74deg);
     }
 
-    #icon-logo-aside{
-        width: 441px;
-        margin: 30vh 0 12vh 0;
-    }
 
-    #redes-sociais-div{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        gap: 50px;
+#icon-logo-aside{
+    width: 441px;
+    margin: 30vh 0 15vh 0;
+}
 
-        img{
-            cursor: pointer;
-            width: 40px;
-        }
+#redes-sociais-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    img{
+        cursor: pointer;
+        width: 40px;
     }
-`;
+}`;
+
+/*
+
+*/
