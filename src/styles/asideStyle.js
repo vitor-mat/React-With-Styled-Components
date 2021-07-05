@@ -4,6 +4,9 @@ import { corAside } from "./cores"
 
 export const Aside = styled.aside`
 
+    grid-column: 1;
+    grid-row: 1 / 3;
+
     background-color: ${corAside};
 
     position: relative;

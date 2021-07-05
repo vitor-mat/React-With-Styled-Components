@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const Header = styled.header`
+    grid-column: 2;
+    grid-row: 1;
+
     width: 100%;
     height: 100%;
 

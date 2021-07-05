@@ -6,7 +6,7 @@ export const Container = styled.aside`
 
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-template-rows: 100vh;
+    grid-template-rows: 10vh 90vh;
 
     overflow: hidden;
 `;
